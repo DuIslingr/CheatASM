@@ -93,7 +93,7 @@ namespace Tests
         [Test]
         public void TestMovInstruction()
         {
-            var asmText = File.ReadAllText(@"C:\Users\tslat\source\repos\CheatASM\CheatASM\examples\mov_instructions.asm");
+            var asmText = File.ReadAllText(@"C:\Users\brisi\OneDrive\Documents\GitHub\CheatASM\CheatASM\examples\mov_instructions.asm");
             var result = asm.AssembleString(asmText);
         }
 
